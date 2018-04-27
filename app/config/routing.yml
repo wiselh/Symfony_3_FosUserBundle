@@ -1,3 +1,8 @@
+post:
+    resource: "@PostBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
