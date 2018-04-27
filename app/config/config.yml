@@ -76,3 +76,9 @@ fos_user:
     from_email:
         address: "abdelhakim.lahlou@gmail.com"
         sender_name: "wiselh"
+
+lexik_jwt_authentication:
+    private_key_path: '%kernel.root_dir%/../config/jwt/private.pem'
+    public_key_path:  '%kernel.root_dir%/../config/jwt/public.pem'
+    pass_phrase:      '%jwt_key_pass_phrase%'
+    token_ttl:        3600

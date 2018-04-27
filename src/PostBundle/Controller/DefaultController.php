@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/posts", name="posts")
+     * @Route("/api/posts", name="posts")
      */
     public function indexAction()
     {
